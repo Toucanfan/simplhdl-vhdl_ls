@@ -7,13 +7,20 @@ the VHDL_LS language server to properly understand your VHDL code, especially re
 
 
 ## Installation
-Simply clone the repository to a location of your choice, and install the plugin with pip:
+### Latest release
+To install the latest release of the plugin, use pip:
+```
+$ pip install SimplHDL-vhdl_ls
+```
+
+### Development version
+To install the development version of the plugin, simply clone the repository to a location of your choice, and install the plugin with pip:
 ```
 $ pip install -e <path-to-your-local-clone>
 ```
 
 
-## Use
+## Usage
 The plugin makes a new flow, `vhdl_ls`, available in SimplHDL. This flow simply outputs the generated VHDL_LS configuration
 to `stdout`. To run it, simply type:
 ```
